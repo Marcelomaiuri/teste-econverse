@@ -2,10 +2,168 @@
 
 body {
     font-family: "Lato", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
 }
 
+ul {
+    list-style: none;
+}
+
+/*pre header*/
+.pre-header {
+    width: 100%;
+    background-color: #041e50;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 10px;
+    height: 37px;
+    align-items: center;
+    padding: 0;
+}
+
+.beneficios li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 3rem;
+    border-right: 1px solid #c4c4c4;
+    height: 21px;
+}
+
+.beneficios li:last-child {
+    border-right: none;
+}
+
+.beneficios li img {
+    margin-right: 15px;
+}
+
+/*header*/
+#header {
+    width: 100%;
+}
+
+.row-header {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    background: url(../images/icones/busca.png) transparent no-repeat;
+    background-position: 95% 50%, center;
+    width: 340px;
+    height: 41px;
+}
+
+.contato {
+    color: #041e50;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contato img {
+    margin-right: 10px;
+}
+
+.login {
+    color: #041e50;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.login img {
+    margin-right: 10px;
+}
+
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+}
+
+.visitante {
+    font-size: 10px;
+    font-weight: bold;
+    color: #041e50;
+    text-decoration: none;
+}
+
+.visitante::after {
+    content: "\f0dd";
+    font: normal normal normal 10px/1 FontAwesome;
+}
+
+.minha-conta {
+    font-size: 7px;
+    font-weight: 500;
+    color: #041e50;
+    text-decoration: none;
+}
+
+.cart {
+    background-color: #041e50;
+    color: white;
+    width: 77px;
+    font-size: 7px;
+    text-align: center;
+}
+
+.cart span {
+    font-size: 10px;
+    text-transform: none;
+    display: block;
+
+}
+
+/*menu header*/
+#menu{
+ width: 100%;
+ 
+ border-top:1px solid #c6c6c6;
+}
+.main-menu{
+    margin:0 auto;
+    max-width: 1000px;
+
+}
+.main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;    
+}
+.main-menu ul li.child-menu::after{
+    content: "\f0dd";
+    font: normal normal normal 10px/1 FontAwesome;
+    
+}
+.main-menu ul li a{
+    font-size:10px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#041e50
+}
+
+/*footer*/
 .footer {
     background-color: #041e50;
+    display: flex;
 }
 
 .col-footer {}
@@ -16,4 +174,7 @@ body {
 
 #newslatter {}
 
-.rodape {}
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+}
