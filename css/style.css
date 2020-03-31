@@ -20,7 +20,7 @@ ul {
 .beneficios {
     display: flex;
     justify-content: space-around;
-    max-width: 1000px;
+    max-width: 1280px;
     margin: 0 auto;
     color: #ffffff;
     font-size: 10px;
@@ -53,7 +53,7 @@ ul {
 
 .row-header {
     display: flex;
-    max-width: 1000px;
+    max-width: 1280px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -133,32 +133,141 @@ ul {
 }
 
 /*menu header*/
-#menu{
- width: 100%;
- 
- border-top:1px solid #c6c6c6;
+#menu {
+    width: 100%;
+
+    border-top: 1px solid #c6c6c6;
 }
-.main-menu{
-    margin:0 auto;
-    max-width: 1000px;
+
+.main-menu {
+    margin: 0 auto;
+    max-width: 1280px;
 
 }
-.main-menu ul{
+
+.main-menu ul {
     display: flex;
     justify-content: space-between;
-    padding: 0;    
+    padding: 0;
 }
-.main-menu ul li.child-menu::after{
+
+.main-menu ul li.child-menu::after {
     content: "\f0dd";
     font: normal normal normal 10px/1 FontAwesome;
-    
+
 }
-.main-menu ul li a{
-    font-size:10px;
+
+.main-menu ul li a {
+    font-size: 10px;
     font-weight: bold;
     text-decoration: none;
-    color:#041e50
+    color: #041e50
 }
+
+/*banner*/
+
+#main-banner {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .title-banner {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: center;
+    text-shadow: 1px 2px 5px #000000;
+}
+
+.banner .title-banner h3 {
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.banner .title-banner h2{
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.banner .title-banner h2 b {
+    font-weight: 900;
+    display: block;
+}
+.banner .title-banner .read-more{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#main-banner .slick-prev,
+#main-banner .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 50;
+    width: 22px;
+    height: 43px;
+    margin-top: -15px;
+    text-indent: -999em;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+#main-banner .slick-prev {
+    background: url(..//images/icones/arrow-left-white.png) center no-repeat transparent;
+    background-size: contain;
+    left: 30px;
+}
+
+#main-banner .slick-next {
+    background: url(..//images/icones/arrow-right-white.png) center no-repeat transparent;
+    background-size: contain;
+    right: 30px;
+}
+
+#main-banner .slick-dots {
+    left: 0;
+    width: 100%;
+    bottom: 20px;
+    position: absolute;
+    padding: 0;
+    text-align: center;
+}
+
+#main-banner .slick-dots li {
+    display: inline-block;
+    margin-left: 5px;
+
+}
+
+#main-banner .slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 0;
+    outline: none;
+}
+
+#main-banner .slick-dots li.slick-active button {
+    background-color: #ffffff;
+}
+
 
 /*footer*/
 .footer {
