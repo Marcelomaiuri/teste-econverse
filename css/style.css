@@ -43,6 +43,11 @@ a.confira {
     text-align: center;
 }
 
+a.confira.blue{
+    color: #041e50;
+    border: 1px solid #041e50;
+}
+
 a.confira:hover {
     background-color: rgba(255, 255, 255, .3);
 }
@@ -399,9 +404,11 @@ a.confira:hover {
     display: block;
 }
 
-/*destaques*/
-#destaques {
+/*intrumentos-destaques e produtos-destaques*/
+#instrumentos-destaques,
+#produtos-destaques {
     margin: 75px auto;
+    text-align: center;
 }
 
 /*second-banner*/
@@ -417,7 +424,7 @@ a.confira:hover {
     text-align: center;
 }
 
-#second-banner .second-banner-row h2{
+#second-banner .second-banner-row h2 {
     font-size: 40px;
     color: #ffffff;
 }
