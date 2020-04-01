@@ -11,6 +11,42 @@ ul {
     list-style: none;
 }
 
+h2 {
+    color: #041e50;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2 b {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #222222;
+    text-align: center;
+    text-transform: none;
+}
+
+a.confira {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px 40px;
+    border: 1px solid #ffffff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+a.confira:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
 /*pre header*/
 .pre-header {
     width: 100%;
@@ -119,13 +155,18 @@ ul {
 
 .cart {
     background-color: #041e50;
-    color: white;
     width: 77px;
-    font-size: 7px;
     text-align: center;
+    padding: 0 10px;
 }
 
-.cart span {
+.cart p {
+    color: #ffffff;
+    font-size: 7px;
+    text-transform: uppercase;
+}
+
+.cart p span {
     font-size: 10px;
     text-transform: none;
     display: block;
@@ -294,8 +335,8 @@ ul {
 
 #category-menu .category-menu-col a {
     text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
+
+
 }
 
 #category-menu .category-menu-col a:hover {
@@ -304,6 +345,9 @@ ul {
 
 #category-menu .category-menu-col a p {
     color: rgba(4, 30, 80, .5);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /*novidades*/
@@ -334,7 +378,7 @@ ul {
     top: 20%;
     left: calc(100% - 640px);
     text-align: center;
-    }
+}
 
 #novidades .novidade-titulo h3 {
     color: #ffffff;
@@ -355,17 +399,27 @@ ul {
     display: block;
 }
 
-#novidades .novidade-titulo a {
-    text-decoration: none;
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 15px 40px;
-    border: 1px solid #ffffff;
-    font-size: 13px;
-    letter-spacing: 2px;
+/*destaques*/
+#destaques {
+    margin: 75px auto;
 }
-#novidades .novidade-titulo a:hover{
-    background-color: rgba(255,255,255, .3);
+
+/*second-banner*/
+#second-banner {
+    width: 100%;
+    background-color: rgba(60, 60, 60, .6);
+}
+
+#second-banner .second-banner-row {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#second-banner .second-banner-row h2{
+    font-size: 40px;
+    color: #ffffff;
 }
 
 /*footer*/
