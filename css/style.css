@@ -51,7 +51,7 @@ ul {
     width: 100%;
 }
 
-.row-header {
+.header-row {
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
@@ -189,22 +189,25 @@ ul {
 }
 
 .banner .title-banner h3 {
-    color:#ffffff;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 4px;
 }
-.banner .title-banner h2{
+
+.banner .title-banner h2 {
     color: #ffffff;
     font-size: 46px;
     font-weight: 300;
     letter-spacing: 4px;
 }
+
 .banner .title-banner h2 b {
     font-weight: 900;
     display: block;
 }
-.banner .title-banner .read-more{
+
+.banner .title-banner .read-more {
     text-decoration: none;
     color: #ffffff;
     padding: 10px;
@@ -267,34 +270,102 @@ ul {
 #main-banner .slick-dots li.slick-active button {
     background-color: #ffffff;
 }
+
 /*menu categoria*/
-#category-menu{
-width: 100%;
-height: 210px;
+#category-menu {
+    width: 100%;
+    height: 210px;
 }
-#category-menu .category-menu-row{
+
+#category-menu .category-menu-row {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 25px 0;
 }
-#category-menu .category-menu-col{
+
+#category-menu .category-menu-col {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-#category-menu .category-menu-col a{
+
+#category-menu .category-menu-col a {
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
 }
-#category-menu .category-menu-col a:hover{
+
+#category-menu .category-menu-col a:hover {
     opacity: .5;
 }
-#category-menu .category-menu-col a p{
-    color: rgba(4,30,80, .5);
+
+#category-menu .category-menu-col a p {
+    color: rgba(4, 30, 80, .5);
+}
+
+/*novidades*/
+#novidades {
+    width: 100%;
+}
+
+#novidades .novidades-row {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#novidades .novidades-col {
+    flex: 50%;
+    position: relative;
+
+}
+
+#novidades .novidades-col img {
+    width: 100%;
+}
+
+#novidades .novidade-titulo {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: calc(100% - 640px);
+    text-align: center;
+    }
+
+#novidades .novidade-titulo h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+#novidades .novidade-titulo h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+#novidades .novidade-titulo h2 b {
+    font-weight: 900;
+    display: block;
+}
+
+#novidades .novidade-titulo a {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px 40px;
+    border: 1px solid #ffffff;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+#novidades .novidade-titulo a:hover{
+    background-color: rgba(255,255,255, .3);
 }
 
 /*footer*/
@@ -303,9 +374,9 @@ height: 210px;
     display: flex;
 }
 
-.col-footer {}
+.footer-col {}
 
-.row-footer {}
+.footer-row {}
 
 .newslatter {}
 
