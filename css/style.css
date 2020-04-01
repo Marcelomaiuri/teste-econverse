@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body {
     font-family: "Lato", Arial, Helvetica, sans-serif;
     padding: 0;
@@ -466,45 +467,129 @@ a.confira:hover {
     background: url(../images/icones/arrow-right-blue.jpg) transparent no-repeat center;
     right: 0;
 }
+
 /*instagram*/
 #instagram {
     width: 100%;
     text-align: center;
 }
-.instagram-row{    
+
+.instagram-row {
     max-width: 1280px;
     margin: 0 auto;
 }
-.instagram-follow{
+
+.instagram-follow {
     text-decoration: none;
     text-transform: uppercase;
-    color:#222222;
+    color: #222222;
     letter-spacing: 4px;
 }
-.instagram-post{
-    margin-top:50px;
+
+.instagram-post {
+    margin-top: 50px;
     display: flex;
 }
-.instagram-post .instagram-post-col img{
- width:100%;
+
+.instagram-post .instagram-post-col img {
+    width: 100%;
 }
+
 /*sobre nos*/
-#sobre-nos{
+#sobre-nos {
     width: 100%;
     margin: 75px auto;
 }
-#sobre-nos .sobre-nos-row{
+
+#sobre-nos .sobre-nos-row {
     width: 1000px;
-    margin:0 auto;
+    margin: 0 auto;
     display: block;
 }
-#sobre-nos .sobre-nos-row p{
-    font-family:'Poppins', sans-serif;
+
+#sobre-nos .sobre-nos-row p {
+    font-family: 'Poppins', sans-serif;
     color: #222222;
     font-size: 11px;
     letter-spacing: 1px;
     font-weight: 300;
 }
+
+/*comentarios*/
+#comentarios {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #ffffff 0, #ffffff 75%, #041e50 25%);
+}
+
+#comentarios .comentarios-row {
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .16);
+
+}
+
+#comentarios .comentarios-col {
+    padding: 15px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#comentarios .comentarios-col img {
+    margin-right: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#comentarios .comentarios-col h4 {
+    margin-right: 10px;
+    color: #041e50;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+#comentarios .comentarios-col h4 span {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+#comentarios .comentarios-col p {
+    font-size: 12px;
+    color: #2f2f2f;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .16);
+    border-radius: 5px;
+    text-align: left;
+    max-width: 520px;
+}
+
+#comentarios .comentarios-row .slick-arrow {
+    position: absolute;
+    border: 0;
+    font-size: 0;
+    width: 8px;
+    height: 16px;
+    z-index: 9;
+    top: 40%;
+}
+
+#comentarios .comentarios-row .slick-arrow.slick-prev {
+    background: url(../images/icones/arrow-left-blue.jpg) transparent no-repeat center;
+    left: 55px;
+}
+
+#comentarios .comentarios-row .slick-arrow.slick-next {
+    background: url(../images/icones/arrow-right-blue.jpg) transparent no-repeat center;
+    right: 55px;
+}
+
 /*footer*/
 .footer {
     background-color: #041e50;
