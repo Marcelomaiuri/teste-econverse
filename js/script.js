@@ -49,7 +49,7 @@ $(document).ready(function () {
                     <p class="prateleira-preco">${precoProduto.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</p>
                 </div>`;
 
-                $(".prateleira-row").append(htmlPrateleira);
+                $(".prateleira-row, #Percussao, #Sopro, #Cordas, #Teclas").append(htmlPrateleira);
 
             }
 
