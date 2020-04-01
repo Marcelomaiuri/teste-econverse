@@ -33,7 +33,7 @@ p {
     text-transform: none;
 }
 
-a.confira {
+.confira {
     text-decoration: none;
     color: #ffffff;
     border-radius: 5px;
@@ -44,12 +44,12 @@ a.confira {
     text-align: center;
 }
 
-a.confira.blue {
+.confira.blue {
     color: #041e50;
     border: 1px solid #041e50;
 }
 
-a.confira:hover {
+.confira:hover {
     background-color: rgba(255, 255, 255, .3);
 }
 
@@ -591,20 +591,134 @@ a.confira:hover {
 }
 
 /*footer*/
-.footer {
+footer {
+    width: 100%;
     background-color: #041e50;
+}
+
+#footer {
+    padding: 75px 0;
+    max-width: 1000px;
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .footer-col {}
 
 .footer-row {}
 
-.newslatter {}
+.footer-row h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
-#newslatter {}
+.footer-row ul {
+    padding: 0;
+}
 
-.rodape {
+.footer-row ul li a {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footer-row ul.siga-nos,
+.footer-row ul.security {
     display: flex;
-    justify-content: space-evenly;
+}
+
+.footer-row ul.siga-nos li,
+.footer-row ul.security li {
+    margin-right: 15px;
+}
+
+
+.newslatter {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px 20px;
+    max-width: 245px;
+}
+
+.newslatter h3 {
+    color: #041e50;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.newslatter h3 b {
+    font-weight: bold;
+}
+
+.newslatter h3 span {
+    letter-spacing: .5px;
+    display: block;
+    font-size: 12px;
+}
+
+#form-newslatter input {
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #041e50;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+#form-newslatter input::placeholder {
+    color: #041e50;
+}
+
+#form-newslatter input[type=submit] {
+    background: transparent;
+    margin-top: 15px;
+    border: 1px solid #041e50;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 155px;
+}
+
+#rodape {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#rodape .rodape-row {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    height: 60px;
+    margin: 10px auto;
+}
+
+#rodape .tj {
+    flex: 75%;
+}
+
+#rodape .tj p {
+    text-align: left;
+    font-size: 10px;
+    color: #010101;
+    letter-spacing: normal;
+    max-width: 500px;
+    line-height: 15px;
+}
+
+#rodape .tj p span {
+    text-transform: uppercase;
+}
+
+#rodape .logo-econverse {
+    margin-right: 40px;
+    flex: 10%;
+}
+
+#rodape .vtex {
+    flex: 15%;
 }
