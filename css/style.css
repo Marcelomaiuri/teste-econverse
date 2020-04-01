@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
     font-family: "Lato", Arial, Helvetica, sans-serif;
     padding: 0;
@@ -487,6 +487,23 @@ a.confira:hover {
 }
 .instagram-post .instagram-post-col img{
  width:100%;
+}
+/*sobre nos*/
+#sobre-nos{
+    width: 100%;
+    margin: 75px auto;
+}
+#sobre-nos .sobre-nos-row{
+    width: 1000px;
+    margin:0 auto;
+    display: block;
+}
+#sobre-nos .sobre-nos-row p{
+    font-family:'Poppins', sans-serif;
+    color: #222222;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 /*footer*/
 .footer {
