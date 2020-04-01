@@ -466,7 +466,28 @@ a.confira:hover {
     background: url(../images/icones/arrow-right-blue.jpg) transparent no-repeat center;
     right: 0;
 }
-
+/*instagram*/
+#instagram {
+    width: 100%;
+    text-align: center;
+}
+.instagram-row{    
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.instagram-follow{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#222222;
+    letter-spacing: 4px;
+}
+.instagram-post{
+    margin-top:50px;
+    display: flex;
+}
+.instagram-post .instagram-post-col img{
+ width:100%;
+}
 /*footer*/
 .footer {
     background-color: #041e50;
