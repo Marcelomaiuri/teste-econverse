@@ -43,7 +43,7 @@ a.confira {
     text-align: center;
 }
 
-a.confira.blue{
+a.confira.blue {
     color: #041e50;
     border: 1px solid #041e50;
 }
@@ -404,9 +404,10 @@ a.confira:hover {
     display: block;
 }
 
-/*intrumentos-destaques e produtos-destaques*/
+/*intrumentos-destaques, produtos-destaques, melhores-marcas*/
 #instrumentos-destaques,
-#produtos-destaques {
+#produtos-destaques,
+#melhores-marcas {
     margin: 75px auto;
     text-align: center;
 }
@@ -427,6 +428,43 @@ a.confira:hover {
 #second-banner .second-banner-row h2 {
     font-size: 40px;
     color: #ffffff;
+}
+
+/*melhores-marcas*/
+#melhores-marcas .melhores-marcas-row {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#melhores-marcas .melhores-marcas-col img {
+    width: auto;
+    margin: 0 auto;
+}
+
+#melhores-marcas .melhores-marcas-slider {
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+
+#melhores-marcas .melhores-marcas-slider .slick-arrow {
+    position: absolute;
+    border: 0;
+    font-size: 0;
+    width: 10px;
+    height: 20px;
+    z-index: 9;
+    top: 20%;
+}
+
+#melhores-marcas .melhores-marcas-slider .slick-arrow.slick-prev {
+    background: url(../images/icones/arrow-left-blue.jpg) transparent no-repeat center;
+    left: 0;
+}
+
+#melhores-marcas .melhores-marcas-slider .slick-arrow.slick-next {
+    background: url(../images/icones/arrow-right-blue.jpg) transparent no-repeat center;
+    right: 0;
 }
 
 /*footer*/
