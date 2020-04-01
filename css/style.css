@@ -413,6 +413,41 @@ p {
     text-align: center;
 }
 
+#instrumentos-destaques .instrumentos-destaques-row {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#instrumentos-destaques .instrumentos-tab {
+    overflow: hidden;
+    border-bottom: 1px solid #041e50;
+    display: flex;
+    justify-content: space-around;
+}
+
+#instrumentos-destaques .instrumentos-tab button {
+    border: 0;
+    background-color: transparent;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #041e50;
+    font-weight: 300;
+    outline: none;
+    cursor: pointer;
+}
+
+#instrumentos-destaques .instrumentos-tab button.active {
+    font-weight: bold;
+    border-bottom: 2px solid #041e50;
+    font-size: 20px;
+}
+
+#instrumentos-destaques .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
 /*second-banner*/
 #second-banner {
     width: 100%;
@@ -430,6 +465,66 @@ p {
     font-size: 40px;
     color: #ffffff;
 }
+
+/*produtos-destaque*/
+#produtos-destaques .prateleira-row {
+    display: flex;
+    max-width: 1200px;
+    margin: 60px auto;
+
+}
+
+#produtos-destaques .prateleira-col {
+    flex: 25%;
+    margin: 0 30px;
+}
+
+#produtos-destaques .prateleira-col img {
+    width: 100%;
+}
+
+#produtos-destaques .prateleira-col .prateleira-titulo {
+    font-size: 13px;
+    font-weight: bold;
+    color: #041e50;
+    text-transform: none;
+    letter-spacing: 2px;
+}
+
+#produtos-destaques .prateleira-col .prateleira-descricao {
+    font-size: 10px;
+    font-weight: 300;
+    color: #222222;
+    text-transform: none;
+}
+
+#produtos-destaques .prateleira-col .prateleira-preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #041e50;
+}
+
+#produtos-destaques .prateleira-row .slick-arrow {
+    position: absolute;
+    border: 0;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    z-index: 9;
+    top: 50%;
+    cursor: pointer;
+}
+
+#produtos-destaques .prateleira-row .slick-arrow.slick-prev {
+    background: url(../images/icones/arrow-left-blue.jpg) #ffffff no-repeat center;
+    left: -20px;
+}
+
+#produtos-destaques .prateleira-row .slick-arrow.slick-next {
+    background: url(../images/icones/arrow-right-blue.jpg) #ffffff no-repeat center;
+    right: -20px;
+}
+
 
 /*melhores-marcas*/
 #melhores-marcas .melhores-marcas-row {
@@ -452,19 +547,20 @@ p {
     position: absolute;
     border: 0;
     font-size: 0;
-    width: 10px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     z-index: 9;
     top: 20%;
+    cursor: pointer;
 }
 
 #melhores-marcas .melhores-marcas-slider .slick-arrow.slick-prev {
-    background: url(../images/icones/arrow-left-blue.jpg) transparent no-repeat center;
+    background: url(../images/icones/arrow-left-blue.jpg) #ffffff no-repeat center;
     left: 0;
 }
 
 #melhores-marcas .melhores-marcas-slider .slick-arrow.slick-next {
-    background: url(../images/icones/arrow-right-blue.jpg) transparent no-repeat center;
+    background: url(../images/icones/arrow-right-blue.jpg) #ffffff no-repeat center;
     right: 0;
 }
 
@@ -574,19 +670,20 @@ p {
     position: absolute;
     border: 0;
     font-size: 0;
-    width: 8px;
-    height: 16px;
+    width: 40px;
+    height: 40px;
     z-index: 9;
     top: 40%;
+    cursor: pointer;
 }
 
 #comentarios .comentarios-row .slick-arrow.slick-prev {
-    background: url(../images/icones/arrow-left-blue.jpg) transparent no-repeat center;
+    background: url(../images/icones/arrow-left-blue.jpg) #ffffff no-repeat center;
     left: 55px;
 }
 
 #comentarios .comentarios-row .slick-arrow.slick-next {
-    background: url(../images/icones/arrow-right-blue.jpg) transparent no-repeat center;
+    background: url(../images/icones/arrow-right-blue.jpg) #ffffff no-repeat center;
     right: 55px;
 }
 
@@ -603,10 +700,6 @@ footer {
     justify-content: space-between;
     margin: 0 auto;
 }
-
-.footer-col {}
-
-.footer-row {}
 
 .footer-row h3 {
     color: #ffffff;
