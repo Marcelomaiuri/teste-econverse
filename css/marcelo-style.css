@@ -107,7 +107,7 @@ p {
     padding: 10px 30px;
     font-family: "Lato", Arial, Helvetica, sans-serif;
     font-size: 9px;
-    background: url(../images/icones/busca.png) transparent no-repeat;
+    background: url(/arquivos/busca.png) transparent no-repeat;
     background-position: 95% 50%, center;
     width: 340px;
     height: 41px;
@@ -278,13 +278,13 @@ p {
 }
 
 #main-banner .slick-prev {
-    background: url(..//images/icones/arrow-left-white.png) center no-repeat transparent;
+    background: url(/arquivos/ninjasom-arrow-left-white.png) center no-repeat transparent;
     background-size: contain;
     left: 30px;
 }
 
 #main-banner .slick-next {
-    background: url(..//images/icones/arrow-right-white.png) center no-repeat transparent;
+    background: url(/arquivos/ninjasom-arrow-right-white.png) center no-repeat transparent;
     background-size: contain;
     right: 30px;
 }
@@ -528,12 +528,12 @@ p {
 }
 
 #produtos-destaques .prateleira-row .slick-arrow.slick-prev {
-    background: url(../images/icones/arrow-left-blue.jpg) #ffffff no-repeat center;
+    background: url(/arquivos/ninjasom-arrow-left-blue.jpg) #ffffff no-repeat center;
     left: -20px;
 }
 
 #produtos-destaques .prateleira-row .slick-arrow.slick-next {
-    background: url(../images/icones/arrow-right-blue.jpg) #ffffff no-repeat center;
+    background: url(/arquivos/ninjasom-arrow-right-blue.jpg) #ffffff no-repeat center;
     right: -20px;
 }
 
@@ -567,12 +567,12 @@ p {
 }
 
 #melhores-marcas .melhores-marcas-slider .slick-arrow.slick-prev {
-    background: url(../images/icones/arrow-left-blue.jpg) #ffffff no-repeat center;
+    background: url(/arquivos/ninjasom-arrow-left-blue.jpg) #ffffff no-repeat center;
     left: 0;
 }
 
 #melhores-marcas .melhores-marcas-slider .slick-arrow.slick-next {
-    background: url(../images/icones/arrow-right-blue.jpg) #ffffff no-repeat center;
+    background: url(/arquivos/ninjasom-arrow-right-blue.jpg) #ffffff no-repeat center;
     right: 0;
 }
 
@@ -690,12 +690,12 @@ p {
 }
 
 #comentarios .comentarios-row .slick-arrow.slick-prev {
-    background: url(../images/icones/arrow-left-blue.jpg) #ffffff no-repeat center;
+    background: url(/arquivos/ninjasom-arrow-left-blue.jpg) #ffffff no-repeat center;
     left: 55px;
 }
 
 #comentarios .comentarios-row .slick-arrow.slick-next {
-    background: url(../images/icones/arrow-right-blue.jpg) #ffffff no-repeat center;
+    background: url(/arquivos/ninjasom-arrow-right-blue.jpg) #ffffff no-repeat center;
     right: 55px;
 }
 

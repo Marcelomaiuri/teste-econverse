@@ -1,20 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-br">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--css-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!--script-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://kit.fontawesome.com/7de42a5390.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/script.js"></script>
+    <vtex:template id="style-ninjasom" />
 
     <title>
         Ninja Som | Loja de Equipamentos de Áudio e Instrumentos Musicais
@@ -23,77 +15,12 @@
 
 <body>
 
-    <!--header-->
-    <header>
-        <nav class="pre-header">
-            <ul class="beneficios">
-                <li><img src="images/icones/seguranca.png" />Compra 100% segura</li>
-                <li><img src="images/icones/troca.png" />1º troca grátis</li>
-                <li><img src="images/icones/percentagem.png" />5X sem juros</li>
-                <li><img src="images/icones/delivery.png" />Entregas em todo Brasil</li>
-            </ul>
-        </nav>
-        <section id="header">
-            <div class="header-row">
-
-                <div class="logo">
-                    <a href="#"><img src="images/logo.png" /></a>
-                </div>
-                <div class="busca">
-                    <input class="search" type="search" placeholder="Busque aqui...">
-                </div>
-                <div class="contato">
-                    <img src="images/icones/whatsapp.png" />(11)99999-9999
-                </div>
-                <div class="login">
-                    <img src="images/icones/myaccount.png" />
-                    <div class="bem-vindo">
-                        <a href="#" class="visitante">Olá, Visitante </a>
-                        <a href="#" class="minha-conta">Minha conta</a>
-                    </div>
-
-                </div>
-                <div class="cart">
-                    <img src="images/icones/cart.png">
-                    <p>Seu carrinho <span>0 item(s)</span> </p>
-                </div>
-            </div>
-        </section>
-        <section id="menu">
-            <nav class="main-menu">
-                <ul>
-                    <li><a href="#">Todas as categorias</a> </li>
-                    <li class="child-menu"><a href="#">Som profissonal</a> </li>
-                    <li class="child-menu"><a href="#">Instrumentos musicais</a> </li>
-                    <li><a href="#">Promoções</a> </li>
-                    <li><a href="#">Contato</a> </li>
-
-                </ul>
-            </nav>
-
-        </section>
-    </header>
+    <vtex:template id="header-ninjasom" />
 
     <!--main-->
     <main>
         <section id="main-banner">
-            <div class="banner">
-                <img src="images/banner-principal.jpg" />
-                <div class="title-banner">
-                    <h3>Novos Produtos</h3>
-                    <h2><b>Instrumentos</b>Profissionais</h2>
-                    <a href="#" class="read-more">Confira</a>
-                </div>
-
-            </div>
-            <div class="banner">
-                <img src="images/banner-principal2.jpg" />
-                <div class="title-banner">
-                    <h3>Novos Produtos</h3>
-                    <h2><b>Instrumentos</b>Profissionais</h2>
-                    <a href="#" class="read-more">Confira</a>
-                </div>
-            </div>
+            <vtex:contentPlaceHolder id="Banner-principal"/>
         </section>
 
         <!--menu category-->
@@ -101,37 +28,37 @@
             <div class="category-menu-row">
                 <div class="category-menu-col">
                     <a href="#">
-                        <img src="images/guitarras.png" />
+                        <img src="/arquivos/guitarras.png" />
                         <p>Guitarras</p>
                     </a>
                 </div>
                 <div class="category-menu-col">
                     <a href="#">
-                        <img src="images/microfones.png" />
+                        <img src="/arquivos/microfones.png" />
                         <p>Microfones</p>
                     </a>
                 </div>
                 <div class="category-menu-col">
                     <a href="#">
-                        <img src="images/mesa-de-som.png" />
+                        <img src="/arquivos/mesa-de-som.png" />
                         <p>Mesa de som</p>
                     </a>
                 </div>
                 <div class="category-menu-col">
                     <a href="#">
-                        <img src="images/teclados.png" />
+                        <img src="/arquivos/teclados.png" />
                         <p>Teclados</p>
                     </a>
                 </div>
                 <div class="category-menu-col">
                     <a href="#">
-                        <img src="images/violao.png" />
+                        <img src="/arquivos/violao.png" />
                         <p>Violão</p>
                     </a>
                 </div>
                 <div class="category-menu-col">
                     <a href="#">
-                        <img src="images/baterias.png" />
+                        <img src="/arquivos/baterias.png" />
                         <p>Baterias</p>
                     </a>
                 </div>
@@ -141,14 +68,14 @@
         <!--novidades-->
         <section id="novidades">
             <div class="novidades-row">
-                <div class="novidades-col"><img src="images/banner-audio.jpg" />
+                <div class="novidades-col"><img src="/arquivos/banner-audio.jpg" />
                     <div class="novidade-titulo">
                         <h3>Novidades</h3>
                         <h2><b>Áudio</b>Profissional</h2>
                         <a href="#" class="confira">Confira</a>
                     </div>
                 </div>
-                <div class="novidades-col"><img src="images/banner-instrumentos.jpg" />
+                <div class="novidades-col"><img src="/arquivos/banner-instrumentos.jpg" />
                     <div class="novidade-titulo">
                         <h3>Novidades</h3>
                         <h2><b>Instrumentos</b>Musicais</h2>
@@ -214,44 +141,44 @@
                 <div class="melhores-marcas-slider">
                     <div class="melhores-marcas-col">
                         <a href="https://br.akg.com/" target="_blank">
-                            <img src="images/akg.jpg" class="logo-da-marca" />
+                            <img src="/arquivos/akg.jpg" class="logo-da-marca" />
                         </a>
                     </div>
                     <div class="melhores-marcas-col">
-                        <a href="https://www.roland.com/br/" target="_blank"> <img src="images/roland.png"
+                        <a href="https://www.roland.com/br/" target="_blank"> <img src="/arquivos/roland.png"
                                 class="logo-da-marca" />
                         </a>
                     </div>
                     <div class="melhores-marcas-col">
                         <a href="https://www.boss.info/br/" target="_blank">
-                            <img src="images/boss.png" class="logo-da-marca" />
+                            <img src="/arquivos/boss.png" class="logo-da-marca" />
                         </a>
                     </div>
                     <div class="melhores-marcas-col">
                         <a href="https://www.shure.com/pt-BR" target="_blank">
-                            <img src="images/shure.png" class="logo-da-marca" />
+                            <img src="/arquivos/shure.png" class="logo-da-marca" />
                         </a>
                     </div>
 
                     <!--duplicata-->
                     <div class="melhores-marcas-col">
                         <a href="https://br.akg.com/" target="_blank">
-                            <img src="images/akg.jpg" class="logo-da-marca" />
+                            <img src="/arquivos/akg.jpg" class="logo-da-marca" />
                         </a>
                     </div>
                     <div class="melhores-marcas-col">
-                        <a href="https://www.roland.com/br/" target="_blank"> <img src="images/roland.png"
+                        <a href="https://www.roland.com/br/" target="_blank"> <img src="/arquivos/roland.png"
                                 class="logo-da-marca" />
                         </a>
                     </div>
                     <div class="melhores-marcas-col">
                         <a href="https://www.boss.info/br/" target="_blank">
-                            <img src="images/boss.png" class="logo-da-marca" />
+                            <img src="/arquivos/boss.png" class="logo-da-marca" />
                         </a>
                     </div>
                     <div class="melhores-marcas-col">
                         <a href="https://www.shure.com/pt-BR" target="_blank">
-                            <img src="images/shure.png" class="logo-da-marca" />
+                            <img src="/arquivos/shure.png" class="logo-da-marca" />
                         </a>
                     </div>
                 </div>
@@ -267,30 +194,31 @@
                 <div class="instagram-post">
                     <div class="instagram-post-col">
                         <a href="https://www.instagram.com/p/B8wLMOsA8GP/" target="_blank">
-                            <img src="images/img-instagram1.jpg" class="instagram-foto" />
+                            <img src="/arquivos/img-instagram1.jpg" class="instagram-foto" />
                         </a>
                     </div>
                     <div class="instagram-post-col">
                         <a href="https://www.instagram.com/p/B8bb8XMnwMN/" target="_blank">
-                            <img src="images/img-instragram2.jpg" class="instagram-foto" />
+                            <img src="/arquivos/img-instragram2.jpg" class="instagram-foto" />
                         </a>
                     </div>
                     <div class="instagram-post-col">
                         <a href="https://www.instagram.com/p/B8ZK6B0AGOH/ " target="_blank">
-                            <img src="images/img-instagram3.jpg" class="instagram-foto" />
+                            <img src="/arquivos/img-instagram3.jpg" class="instagram-foto" />
                         </a>
                     </div>
                     <div class="instagram-post-col">
                         <a href="https://www.instagram.com/p/B701ptnAl_g/" target="_blank">
-                            <img src="images/img-instagram4.jpg" class="instagram-foto" />
+                            <img src="/arquivos/img-instagram4.jpg" class="instagram-foto" />
                         </a>
                     </div>
                     <div class="instagram-post-col">
                         <a href="https://www.instagram.com/p/B7mBHohgfDI/" target="_blank">
-                            <img src="images/img-instagram5.jpg" class="instagram-foto" />
+                            <img src="/arquivos/img-instagram5.jpg" class="instagram-foto" />
                         </a>
                     </div>
                 </div>
+            </div>
 
 
         </section>
@@ -314,14 +242,14 @@
         <section id="comentarios">
             <div class="comentarios-row">
                 <div class="comentarios-col">
-                    <img src="images/felipe-salmim.png" />
+                    <img src="/arquivos/felipe-salmim.png" />
                     <h4>Felipe Salmin<br /> <span>Designer</span></h4>
                     <p>
                         Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
                         text, and a search for ‘lorem ipsum</p>
                 </div>
                 <div class="comentarios-col">
-                    <img src="images/marcelo-maiuri.png" />
+                    <img src="/arquivos/marcelo-maiuri.png" />
                     <h4>Marcelo Maiuri<br /> <span>Front-end</span></h4>
                     <p>
                         Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
@@ -332,114 +260,9 @@
 
     </main>
 
-    <!--footer-->
-    <footer>
-        <section id="footer">
-            <div class="footer-col">
-                <div class="footer-row">
-                    <h3>Institucional</h3>
-                    <ul>
-                        <li> <a href="#">Quem somos</a></li>
-                        <li> <a href="#">Nossas lojas</a></li>
-                    </ul>
-                </div>
-                <div class="footer-row">
-                    <h3>Atendimento</h3>
-                    <ul>
-                        <li> <a href="#">Fale Conosco</a></li>
-                        <li> <a href="mailto:vendas@ninjasom.com.br">vendas@ninjasom.com.br</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-col">
-                <div class="footer-row">
-                    <h3>Ajuda e suporte</h3>
-                    <ul>
-                        <li> <a href="#">Política de privacidade</a></li>
-                        <li> <a href="#">Política de trocas</a></li>
-                        <li> <a href="#">Prazo de entrega</a></li>
-                        <li> <a href="#">Termos de uso</a></li>
-                    </ul>
-                </div>
-                <div class="footer-row">
-                    <ul class="siga-nos">
-                        <li> <a href="https://www.instagram.com/ninjasom/?hl=pt-br" targer="_blank"><img
-                                    src="images/icones/instagram.png" /></a>
-                        <li> <a href="https://twitter.com/ninjasom" target="_blank"><img
-                                    src="images/icones/twitter.png" /></a>
-                        <li> <a href="https://www.facebook.com/ninjasomoficial/" target="_blank"><img
-                                    src="images/icones/facebook.png" /></a>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-col">
-                <div class="footer-row">
-                    <h3>Formas de pagamento</h3>
-                    <div>
-                        <img src="images/bandeiras.png" />
-                    </div>
-                </div>
-                <div class="footer-row">
-                    <h3>Segurança</h3>
-                    <ul class="security">
-                        <li>
-                            <img src="images/certificado-rapidssl.jpg" />
-                        </li>
-                        <li>
-                            <img src="images/certificado-vtex.jpg" />
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-col">
-                <div class="footer-row">
-                    <div class="newslatter">
-                        <h3>Assine nosso <b>newslatter</b> <span>e receba novidades e promoções</span></h3>
-                        <form id="form-newslatter">
-                            <input type="text" placeholder="seu nome">
-                            <input type="email" placeholder="seu e-mail">
-                            <input class="confira blue" type="submit" value="enviar">
-                        </form>
-                    </div>
-                </div>
-            </div>
+    <vtex:template id="footer-ninjasom" />
 
-        </section>
-        <section id="rodape">
-            <div class="rodape-row">
-                <div class="tj">
-                    <p><span>Ninja som comercio de eletronicos LTDA</span> - 2012 - 2020, todos os direitos reservados.
-                        Rua Santa
-                        Ifigênia, 556 560/562/564 - Santa Ifigênia - CEP:01.207.000 - São Paulo / SP- CNPJ
-                        07.282.516/0001-15</p>
-                </div>
-                <div class="logo-econverse">
-                    <a href="https://econverse.digital/" target="_blank"><img src="images/logo-econverse.jpg" /></a>
-                </div>
-
-                <div class="vtex"><a href="https://vtex.com/br-pt/" target="_blank"><img
-                            src="images/logo-vtex.jpg" /></a>
-
-                </div>
-            </div>
-        </section>
-
-    </footer>
-    <script>
-        function openCategories(evt, category) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].classList.remove("active");
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(category).classList.add("active");
-            evt.currentTarget.className += " active";
-        }
-    </script>
+    <vtex:template id="script-ninjasom" />
 
 </body>
 
